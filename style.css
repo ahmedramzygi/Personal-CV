@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin:0.75rem 0;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .bg-primary {
+    background:rgb(245, 156, 123);
+    color: #fff;
+  }
+  
+.btn {
+    display: inline-block;
+    color: #444;
+    background: rgb(245, 156, 123);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .btn-dark{
+      background: #333;
+      color: #fff;
+      margin-top: 1rem;
+  }
+.btn:hover{
+    background-color: coral;
+}
+
+a{
+    text-decoration: none;
+    width: auto;
+}
+body{
+    font-family: 'Roboto';
+    }
+    .text-primary{
+        color:rgb(245, 156, 123)
+    }
+#navbar{
+        position: sticky;
+        color: white;
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+        padding: 1rem;
+    }
+    
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+      }
+      
+      #navbar ul li a {
+        color: #fff;
+        padding: 0.75rem;
+        margin: 0 0.25rem;
+      }
+      
+      
+    #navbar ul li a:hover{
+        background:rgb(228, 87, 36);
+        border-radius: 5px ;
+    }
+    #showcase{
+    position: relative;
+    background: #333 no repeat center center/cover;
+    background-image: url(background2.jpg);
+    height: 90vh;
+    color: black;
+    }
+    .links{
+        display: flex;
+    }
+   
+    .l-heading{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 25px;
+        color:rgb(228, 87, 36);
+        margin-left: 20px;
+      
+        
+    }
+   
+    #showcase .showcase-content{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       height: 100%;
+       margin-top: -5rem;
+       position: absolute;
+       top: 0px;
+       left:0;
+       right: 0;
+       bottom: 0;
+       background-color:white(0, 0, 0, 0.4);
+    }
+    #showcase .showcase-content img{
+        border-radius: 50%;
+        max-width: 200px;
+        margin-top: 170px;
+       
+        
+    }
+    #showcase .showcase-content .about-essam{
+        font-size: 20px;
+        margin: 40px 100px ;
+        
+    }
+    #showcase .showcase-content .fab{
+    border: 1px solid #333;
+    color: coral;
+    border-radius: 50%;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 10px;
+    text-align: center;
+  }
+ #education{
+     margin-bottom: 30px;
+ }
+
+.course, .skills {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .course .title {
+      margin-top: 12px;
+    color: #509e98;
+    -ms-flex: 0 0 33.3%;
+    flex: 0 0 33.3%;
+    max-width: 33%;
+  }
+  
+  .course .description {
+    -ms-flex: 0 0 66.6%;
+    flex: 0 0 66.6%;
+    max-width: 66.6%;
+  }
+  
+  .course .description p {
+    padding-left: 1em;
+  }
+  main section:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+
+  h4{
+      color: black;
+  }
+   #education .fas{
+       width: 90px;
+   }
+ 
+ body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+a {
+  color: #1C9C94;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  padding:0 1em;
+}
+
+
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('./img/bg.jpg');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight:bolder;
+}
+
+main {
+  max-width: 1140px;
+}
+.date{
+    color: green;
+}
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+#research h4{
+    color:#333;
+}
+a .fab {
+  color: white;
+}
+#skills li{
+    color:black;
+}
+.course, .skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.course .title {
+  color: #509e98;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+}
+
+.course .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.course .descrition p {
+  padding-left: 1em;
+}
+
+.skills .column {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.skills .column ul, ul.job-description {
+  list-style-type: none;
+}
+
+.skills .column ul > li:before {
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+.school, .job-title {
+  text-transform: capitalize;
+}
+
+.school span, .job-title span {
+  color: #889499;
+  text-decoration: underline;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+#contacts{
+    background: white;
+    color: black;
+    
+}
+.container{
+    display: flex;
+}
+#contacts .container .fas{
+    color: coral;
+}
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center; 
+}
+.box i{
+    margin-bottom: 10px;
+}
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+}
+   
+   @media only screen and (max-width: 768px) {
+     .course {
+       display: block;
+     }
+   
+     .course .title, .course .descrition {
+       max-width: 100%;
+     }
+   }
+#contacts .container h3{
+    color: #444;
+}
+  
+
+   @media only screen and (max-width: 576px) {
+     .skills {
+       display: block;
+     }
+   
+     .skills .column {
+       max-width: 100%;
+     }
+   
+     footer {
+       text-align: center;
+     }
+   } 
